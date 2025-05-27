@@ -1,0 +1,44 @@
+SPRING FRAMEWORK:
+
+What is Spring FrameWork?
+It is an open source light weight framework for building a java application, It is created on the top of JEE to simplify the java development
+and providing a more flexiable and testable approch to building java application, It is used to achive the microServices design pattern so the
+programmer can support the product in easy way.
+
+Why we use Spring FrameWork?
+We use spring framework to simplify java development and overcome with the disadvantages JEE.
+Spring framework providing multiple modules where we can achive easy development such as: 
+                                          1) Dependency Injection (DI) and  Inversion of Control (IOC)
+
+                                          2)Modular and Light weight 
+																						  
+A programmer wants to use some specific programs such as Spring MVC , Spring Core, Spring Data.
+
+Unlike JEE Spring is not a heavy weight 
+                                          3) Aspect oriented programming
+										  
+this is used to seperate cross cutting conserns like as login framework, security features and transaction management system from business logic
+
+                                          4) SPRING MVC :
+										  
+it is a powerful and customizable web frame wor for building RESTfullAPIS and web Apps by forming a concept of model view  controller 
+
+                                          5) SPRING BOOT: 
+										  
+It is a prt of spring eco System that simplifies the development of Java application with the help of auto configration, embedded server 
+and production ready features.
+
+                                          6) Integration with other tecnologies: 
+										  
+we can integrate our java application with other tecnologies such as hibernate, JPA, APACHE KAFKA, RabbitMQ, Doker and DAtaBases
+
+Testing Support: It provides built-in Supports for testing components for using Junit and MoKito
+
+                                                      CORE MODULES OF SPRINF FRAMEWORKS
+													  ----------------------------------
+					1) SPring CORE : it provides DI and IOC controller.
+					2) Spring BOOT : it simplifies application configration and deplymnt
+					3) Spring DATA JPA : it simplifies data acciciblities from any rdbms and NoSQL databases
+					4) Spring MVC : which is used to create web application 
+					5) Spring Security : provide a security features
+					
