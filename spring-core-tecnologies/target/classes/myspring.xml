@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:lang="http://www.springframework.org/schema/lang" xsi:schemaLocation="
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd"> <!-- bean definitions here -->
+
+	<bean id="customer"
+		class="com.jspider.spring_core_tecnologies.beans.Customer" />
+
+	<bean id="student"
+		class="com.jspider.spring_core_tecnologies.beans.Student">
+		<property name="id" value="1234" />
+		<property name="name" value="Pawan" />
+		<property name="email" value="pawan@gmail.com" />
+
+	</bean>
+	
+	
+	<bean id="subject"
+		class="com.jspider.spring_core_tecnologies.beans.Subject">
+		<property name="id" value="1234" />
+		<property name="name" value="JAVA" />
+		<property name="author" value="JAMES GOSLIN" />
+
+	</bean>
+
+	<bean id="student1"
+		class="com.jspider.spring_core_tecnologies.beans.Student">
+		<constructor-arg name="id" value="123432" />
+		<constructor-arg name="name" value="pawan" />
+		<constructor-arg name="email" value="pawan's@gmail.com" />
+	</bean>
+	
+	<bean id="student2"
+		class="com.jspider.spring_core_tecnologies.beans.Student">
+		<constructor-arg name="id" value="123432" />
+		<constructor-arg name="name" value="pawan" />
+		<constructor-arg name="email" value="pawan's@gmail.com" />
+		<constructor-arg name="subject" value="subject" />
+	</bean>
 
 </beans>
